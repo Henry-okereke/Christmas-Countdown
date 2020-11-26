@@ -1,0 +1,122 @@
+*{margin: 0px;
+padding: 0px}
+
+body {
+  background: url('https://gordon.armymwr.com/application/files/4915/7314/2606/SpecialEvents_XmasFest_EH.jpg');
+  opacity: 5;
+}
+
+.headerh1{
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 0px 0px 0px 0px;
+  border-radius: 10%;
+  margin-top: 30px;
+
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Noto Sans, sans-serif;
+ font-size: 40px;
+ padding: 0px;
+
+  
+  }
+
+
+
+p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    font-weight: bold;
+  
+  font-family: Noto Sans, sans-serif;
+ 
+ color: white;
+  }
+
+  .box1{
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 100px;
+   
+  }
+
+  @media (max-width: 1200px) { 
+    .box1 {
+      margin-right: 0px;
+      margin-left: 0px;
+  } 
+}
+
+  @media (max-width: 1000px) { 
+    .box1 {
+      margin-right: 0px;
+      margin-left: 0px;
+  } 
+}
+
+  
+  .box{
+      background-color: rgba(0, 0, 0, 0.527);
+      padding: 5px 5px 0px 5px;
+      border-radius: 10%;
+      padding: 20px;
+    
+
+  }
+
+  .label{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    
+    
+  }
+
+ 
+
+ .timerflex{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+ }
+
+ 
+ figcaption{
+  
+  padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+   
+ }
+
+ .timerboxcolor1{
+   background-color: black;
+ }
+
+ .timerboxcolor2{
+  background-color: rgba(73, 73, 182, 0.596);
+}
+
+.timerboxcolor3{
+  background-color:black;
+}
+
+.timerboxcolor4{
+  background-color: rgba(163, 41, 41, 0.589);
+}
+
+.footertext{
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  color: black; 
+  font-size: 40px;
+}
