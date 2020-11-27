@@ -1,10 +1,10 @@
 //insert real time date
- function topDate(d) {
-  var d = new Date();
-  document.getElementById("datee").innerHTML = d;
+ 
+ var dt = new Date(Date.now()).toDateString();
+  document.getElementById("datetime").innerHTML = dt;
 
 
-  }
+  
 
 
 // Set the date we're counting down to
